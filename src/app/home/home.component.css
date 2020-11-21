@@ -1,0 +1,61 @@
+#map{
+    width: 100%;
+}
+#container{
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+}
+#masjidContainer{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#masjid{
+    display: flex;
+    flex-direction: row;
+}
+table{
+    margin-left: 2em;
+    width: 40%;
+    text-align: center;
+}
+.d-block{
+    text-align: center;
+}
+#prayerTimingsContainer{
+    width: 30%;
+    margin-left: 2em;
+}
+
+@media (max-width : 990px){
+    #container{
+        flex-direction: column;
+    }
+    #masjidContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    #masjid{
+        flex-direction: column;
+    }
+    #masjidCard{
+        min-width: 100%;
+    }
+    table{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1em;
+    }
+    #prayerTimingsContainer{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 2em;
+    }
+    #iframe{
+        width: 100%;
+    }
+}
